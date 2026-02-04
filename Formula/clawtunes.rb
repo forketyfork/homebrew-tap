@@ -3,10 +3,10 @@ class Clawtunes < Formula
 
   desc "CLI app to control Apple Music"
   homepage "https://github.com/forketyfork/clawtunes"
-  url "https://api.github.com/repos/forketyfork/clawtunes/tarball/713badcaf10ed33f7f4bcd4706055024daf64abf",
+  version "0.1.0"
+  url "https://api.github.com/repos/forketyfork/clawtunes/tarball/v#{version}",
       using: :github_api
   sha256 "0c67235a9c18f09c98012b5839f5afc70844b39f4d255cdc969c0e23c909210f"
-  version "0.1.0"
   license "MIT"
 
   livecheck do

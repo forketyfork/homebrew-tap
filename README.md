@@ -12,5 +12,6 @@ brew install clawtunes
 ## Notes
 
 - clawtunes requires macOS and the Apple Music app.
+- Releases are published as tags in the clawtunes repo.
 - If the tap or source repo is private, ensure your GitHub credentials or
   `HOMEBREW_GITHUB_API_TOKEN` allow access.
