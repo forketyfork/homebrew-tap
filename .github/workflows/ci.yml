@@ -12,7 +12,11 @@ jobs:
 
     steps:
       - uses: actions/checkout@v4
+      - name: Configure GitHub auth for private taps
+        run: git config --global url."https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/".insteadOf "https://github.com/"
       - uses: Homebrew/actions/setup-homebrew@master
+        with:
+          brew-gh-api-token: ${{ secrets.GITHUB_TOKEN }}
       - name: Style formula
         run: brew style Formula/clawtunes.rb
       - name: Audit formula
