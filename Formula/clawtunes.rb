@@ -6,7 +6,7 @@ class Clawtunes < Formula
   version "0.1.0"
   url "https://api.github.com/repos/forketyfork/clawtunes/tarball/v#{version}",
       using: :github_api
-  sha256 "6aa0b3ce8ecf2c836847da1b6e84561cff76da5b5bbc1363f7f26f3a4bb826ea"
+  sha256 "f47a4106ac80dbbe6eb07f81579f64f591d1ec2472d7f897448ff733b48f2eb4"
   license "MIT"
 
   livecheck do
@@ -17,7 +17,7 @@ class Clawtunes < Formula
 
   resource "click" do
     url "https://files.pythonhosted.org/packages/b9/2e/0090cbf739cee7d23781ad4b89a9894a41538e4fcf4c31dcdd705b78eb8b/click-8.1.8.tar.gz"
-    sha256 "6aa0b3ce8ecf2c836847da1b6e84561cff76da5b5bbc1363f7f26f3a4bb826ea"
+    sha256 "f47a4106ac80dbbe6eb07f81579f64f591d1ec2472d7f897448ff733b48f2eb4"
   end
 
   def install
