@@ -4,7 +4,7 @@ class Clawtunes < Formula
   desc "CLI app to control Apple Music"
   homepage "https://github.com/forketyfork/clawtunes"
   url "https://github.com/forketyfork/clawtunes/archive/refs/tags/v0.1.0.tar.gz"
-  sha256 "3bcfbce63495da1cd8475554b22a7d3fc6ad802febe22dc4f7cfb103265f267c"
+  sha256 "ef2f95066358ff4eb89249de5bd4a04279750c050921625a450257edc29a281e"
   license "MIT"
 
   livecheck do
